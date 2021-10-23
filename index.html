@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial Alberto G.</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/archivos.js"></script>
+</head>
+
+<body>
+    <div class="loadingPage" id="load"><div class="preloader"></div></div>
+    <div class="Presentation">
+        <div class="txtPresentation">
+            <h1>
+                Listado de Personas
+            </h1>
+        </div>
+    </div>
+    <div id="formOne">
+        <form>
+            <input class="exitForm" type="button" value="X" id="exit">
+            <br>
+            <br>
+            <label>Nombre: </label>
+            <br>
+            <input class="inputForm" type="text" id="name" placeholder="Ej: Junior">
+            <br>
+            <label>Apellido: </label>
+            <br>
+            <input class="inputForm" type="text" id="lastName" placeholder="Ej: Prueba">
+            <br>
+            <label>Sexo: </label>
+            <br>
+            <input type="radio" name="gender" id="mGender">Masculino</input>
+            <input type="radio" name="gender" id="fGender">Femenino</input>
+            <br>
+            <br>
+            <label>Localidad: </label>
+            <br>
+            <select class="inputForm" id="city">
+            </select>
+            <br>
+            <br>
+            <div class="btnFormOne">
+                <input class="btnModify" type="button" value="Modificar" id="modify" onclick="ModifyClick()">
+            </div>
+        </form>
+    </div>
+    <div id="container">
+    </div>
+</body>
+
+</html>
